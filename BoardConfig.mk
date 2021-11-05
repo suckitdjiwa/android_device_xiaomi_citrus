@@ -20,5 +20,8 @@ TARGET_SCREEN_DENSITY := 420
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/juice-perf_defconfig
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := citrus
+
 # Inherit from the proprietary version
 include vendor/xiaomi/citrus/BoardConfigVendor.mk
