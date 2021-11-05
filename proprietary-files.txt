@@ -1,5 +1,25 @@
 # All unpinned blobs below are extracted from citrus-user  11 citrus: RKQ1.201004.002 V12.5.2.0.RJFEUXM release-keys
 
+# ADSP-Modules
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
+vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libmctfengine_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin
+vendor/lib/rfsa/adsp/misound_res.bin
+vendor/lib/rfsa/adsp/misound_res_headphone.bin
+
 # Audio-ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
@@ -216,6 +236,41 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libgf_hal.so
+
+# OMX
+vendor/lib/libAlacSwDec.so
+vendor/lib/libApeSwDec.so 
+vendor/lib/libdsd2pcm.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libMpeg4SwEncoder.so
+vendor/lib/libOmxAacDec.so 
+vendor/lib/libOmxAlacDec.so 
+vendor/lib/libOmxAlacDecSw.so 
+vendor/lib/libOmxAmrDec.so 
+vendor/lib/libOmxAmrwbplusDec.so 
+vendor/lib/libOmxApeDec.so 
+vendor/lib/libOmxApeDecSw.so 
+vendor/lib/libOmxDsdDec.so 
+vendor/lib/libOmxEvrcDec.so 
+vendor/lib/libOmxG711Dec.so 
+vendor/lib/libOmxQcelp13Dec.so 
+vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxWmaDec.so
+vendor/lib64/libAlacSwDec.so 
+vendor/lib64/libApeSwDec.so 
+vendor/lib64/libFlacSwDec.so 
+vendor/lib64/libMpeg4SwEncoder.so 
+vendor/lib64/libOmxAacDec.so 
+vendor/lib64/libOmxAlacDec.so 
+vendor/lib64/libOmxAlacDecSw.so 
+vendor/lib64/libOmxAmrDec.so 
+vendor/lib64/libOmxAmrwbplusDec.so 
+vendor/lib64/libOmxApeDec.so 
+vendor/lib64/libOmxApeDecSw.so 
+vendor/lib64/libOmxEvrcDec.so 
+vendor/lib64/libOmxG711Dec.so 
+vendor/lib64/libOmxQcelp13Dec.so 
+vendor/lib64/libOmxWmaDec.so
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
